@@ -23,7 +23,34 @@ export default defineConfig({
       level: [2, 3]
     },
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: 'Пошук по сайту', // Search button text
+                buttonAriaLabel: 'Пошук по сайту' // ARIA label for accessibility
+              },
+              modal: {
+                displayDetails: 'Показати детальний список', // Option to show detailed list
+                resetButtonTitle: 'Скинути пошук', // Reset search button
+                backButtonTitle: 'Закрити пошук', // Back/close search button
+                noResultsText: 'Нічого не знайдено за запитом', // No results message
+                footer: {
+                  selectText: 'Вибрати', // Select text for navigation
+                  selectKeyAriaLabel: 'Введіть', // ARIA label for 'Enter' key
+                  navigateText: 'Навігація', // Navigation instructions
+                  navigateUpKeyAriaLabel: 'Вгору', // ARIA label for up arrow
+                  navigateDownKeyAriaLabel: 'Вниз', // ARIA label for down arrow
+                  closeText: 'Закрити', // Close button text
+                  closeKeyAriaLabel: 'esc' // ARIA label for 'Esc' key
+                }
+              }
+            }
+          }
+        }
+      }
     },
     nav: [
       { text: 'Повідомити про інцидент', link: '/report' }
