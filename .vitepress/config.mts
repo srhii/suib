@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'uk-UA',
-  base: '/',
   cleanUrls: true,
   title: "СУІБ 27001",
   description: "СУІБ 27001",
