@@ -8,11 +8,11 @@ export default defineConfig({
   description: "СУІБ 27001",
   head: [
     ['link', 
-      { rel: 'icon', href: '/media/favicon.svg' }
+      { rel: 'icon', href: './media/favicon.svg' }
     ]
   ],
   themeConfig: {
-    logo: '/media/logo.svg',
+    logo: './media/logo.svg',
     darkModeSwitchTitle: 'Увімкнути темну тему',
     lightModeSwitchTitle: 'Увімкнути світлу тему',
     sidebarMenuLabel: 'Меню',
