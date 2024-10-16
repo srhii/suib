@@ -74,6 +74,11 @@
  * Component: Button
  * -------------------------------------------------------------------------- */
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 :root {
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: var(--vp-c-white);
@@ -286,4 +291,27 @@
   margin: 0 20px;
   border: none;
   border-top: 1px solid var(--vp-c-gray-1);
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  background-color: var(--vp-c-bg);
+  overflow: hidden;
+}
+
+.org {
+  aspect-ratio: 2061 / 949;
+}
+
+.hr {
+  aspect-ratio: 2061 / 291;
+}
+
+.physical {
+  aspect-ratio: 2061 / 291;
+}
+
+.tech {
+  aspect-ratio: 2061 / 698;
 }
