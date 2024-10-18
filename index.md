@@ -22,7 +22,7 @@
     </div>
     <div class="top-diagram-container">
         <!-- стрілки -->
-        <div class="arrow">
+        <div class="arrow hide-on-mobile">
             <svg height="38" viewBox="0 0 7 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.80762 15.1172L0.688477 13.0039L0 13.6924L3.30762 17L6.61523 13.6924L5.92676 13.0039L3.80762 15.1172V1.88281L5.92676 3.99609L6.61523 3.30762L3.30762 0L0 3.30762L0.688477 3.99609L2.80762 1.88281V15.1172Z" style="fill: var(--vp-c-text-3)"/>
             </svg>

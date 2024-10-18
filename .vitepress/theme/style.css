@@ -254,6 +254,10 @@ html {
     grid-template-columns: 1fr;
   }
 
+  .top-diagram-container {
+    grid-template-columns: 1fr;
+  }
+
   .main-item {
     padding: 20px;
   }
